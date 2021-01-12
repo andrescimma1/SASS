@@ -6,7 +6,11 @@ const sass = require('gulp-sass');
 function css()
 {
     return src('src/scss/app.scss')
-        .pipe(sass())
+        .pipe(sass(
+            {
+                outputStyle: 'expanded';
+            }
+        ))
         .pipe(dest('./build/css'))
 }
 
