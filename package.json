@@ -1,0 +1,29 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Aprendiendo GULP y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrescimma1/SASS.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "Web",
+    "Design"
+  ],
+  "author": "Andrés Cimma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrescimma1/SASS/issues"
+  },
+  "homepage": "https://github.com/andrescimma1/SASS#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
