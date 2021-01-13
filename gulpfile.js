@@ -8,7 +8,7 @@ function css()
     return src('src/scss/app.scss')
         .pipe(sass(
             {
-                outputStyle: 'expanded';
+                outputStyle: 'expanded'
             }
         ))
         .pipe(dest('./build/css'))
